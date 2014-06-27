@@ -15,9 +15,7 @@ CustomContainer.prototype.initialize = function () {
     var shape = new createjs.Shape()
         shape.graphics.beginFill(this._color).drawRect(0, 0, this._width, this._height);
             
-    var txt = new createjs.Text();
-        txt.text = this._label;
-        
-            
+    var txt = new createjs.Text(this._label, "20px Arial", "#ffffff");
+           
     this.addChild(shape, txt);
 }
