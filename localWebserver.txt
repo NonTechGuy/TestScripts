@@ -1,0 +1,2 @@
+cd craigbartlett/Work/wru/web_games/build/frontend/
+python -m SimpleHTTPServer
