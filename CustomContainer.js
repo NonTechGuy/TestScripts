@@ -14,7 +14,6 @@ CustomContainer.prototype.initialize = function () {
     
     var shape = new createjs.Shape()
         shape.graphics.beginFill(this._color).drawRect(0, 0, this._width, this._height);
-        shape.x = xpos;
         shape.name = j;
             
     var txt = new createjs.Text();
