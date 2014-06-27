@@ -5,7 +5,7 @@ function CustomContainer(label, color, w, h) {
     this._height = h;
     this.initialize();
 }
-//Inheritance from Container
+
 Item.prototype = new createjs.Container(); 
 Item.prototype.Container_initialize = Item.prototype.initialize; 
      
